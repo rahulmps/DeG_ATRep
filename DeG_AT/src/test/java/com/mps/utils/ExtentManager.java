@@ -1,6 +1,6 @@
 package com.mps.utils;
 
-//http://relevantcodes.com/Tools/ExtentReports2/javadoc/index.html?com/relevantcodes/extentreports/ExtentReports.html
+
 
 import java.io.File;
 import java.io.IOException;
@@ -29,8 +29,7 @@ public class ExtentManager {
 	ExtentReports reports;
 	ExtentTest test;
 
-	//String catchImagePath;
-	//String attachImagePath;
+	
 
 	public static String generateDataTime() {
 		Date now = new Date();

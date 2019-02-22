@@ -2599,3 +2599,48 @@ Session ID: 0d5c1cb9-9651-4878-bd9f-1dac89af9ee4
 2019-02-22 23:27:08,668 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 1 944
 2019-02-22 23:27:08,733 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 1 944
 2019-02-22 23:27:08,733 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Issue are equal --> true
+2019-02-22 23:40:14,835 - com.mpstrak.common.TestCase2 -INFO - ----------------------System StartUp Configuration -----------------------------
+2019-02-22 23:40:14,839 - com.mpstrak.common.TestCase2 -INFO - ----------------------Setting up extent Report  -----------------------------
+2019-02-22 23:40:15,015 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:15,016 - com.mpstrak.common.TestCase2 -INFO - ==username validation===========
+2019-02-22 23:40:15,016 - com.mpstrak.common.TestCase2 -INFO - Submit without Entering Username
+2019-02-22 23:40:21,321 - com.mpstrak.modules.DGLogin -INFO -  Username is not entered  
+2019-02-22 23:40:21,325 - com.mpstrak.common.TestCase2 -INFO - ===============Please enter username Message================ 
+2019-02-22 23:40:21,325 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:23,918 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:23,918 - com.mpstrak.common.TestCase2 -INFO - =====================username validation e===========
+2019-02-22 23:40:23,919 - com.mpstrak.common.TestCase2 -INFO - Submit without Entering Username
+2019-02-22 23:40:29,969 - com.mpstrak.modules.DGLogin -INFO -  Username entered 
+2019-02-22 23:40:29,969 - com.mpstrak.modules.DGLogin -INFO -  Password is not entered  
+2019-02-22 23:40:31,021 - com.mpstrak.modules.DGLogin -INFO -  Password is not entered  Please enter password
+2019-02-22 23:40:31,022 - com.mpstrak.common.TestCase2 -INFO - ===============Actual message  validation================ Please enter password
+2019-02-22 23:40:31,022 - com.mpstrak.common.TestCase2 -INFO - ===============Please enter username Message================ 
+2019-02-22 23:40:31,023 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:33,471 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:33,471 - com.mpstrak.common.TestCase2 -INFO - ===loginInvalidTestCase====
+2019-02-22 23:40:33,471 - com.mpstrak.common.TestCase2 -INFO - Entering Username
+2019-02-22 23:40:39,556 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-02-22 23:40:39,563 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-02-22 23:40:39,563 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-02-22 23:40:39,564 - com.mpstrak.common.TestCase2 -INFO - Entering Password 
+2019-02-22 23:40:39,598 - com.mpstrak.modules.DGLogin -INFO -  password entered  
+2019-02-22 23:40:40,384 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:42,824 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:42,824 - com.mpstrak.common.TestCase2 -INFO - =====================loginTestCase===========
+2019-02-22 23:40:42,824 - com.mpstrak.common.TestCase2 -INFO - Entering Username
+2019-02-22 23:40:48,892 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-02-22 23:40:48,901 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-02-22 23:40:48,901 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-02-22 23:40:48,902 - com.mpstrak.common.TestCase2 -INFO - Entering Password 
+2019-02-22 23:40:48,956 - com.mpstrak.modules.DGLogin -INFO -  password entered  
+2019-02-22 23:40:48,965 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-02-22 23:40:48,966 - com.mpstrak.common.TestCase2 -INFO - ===============Login  validation================ 
+2019-02-22 23:40:50,903 - com.mpstrak.common.TestCase2 -INFO - ===============Login  Success ================ 
+2019-02-22 23:40:50,903 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-02-22 23:40:53,397 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Hello i am in dashboardbrowse
+2019-02-22 23:41:33,135 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 2 078
+2019-02-22 23:41:33,196 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 2 078
+2019-02-22 23:41:33,196 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Article are equal --> true
+2019-02-22 23:41:33,255 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 1 944
+2019-02-22 23:41:33,315 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 1 944
+2019-02-22 23:41:33,315 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Issue are equal --> true
