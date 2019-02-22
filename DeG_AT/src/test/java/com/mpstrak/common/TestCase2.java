@@ -53,7 +53,7 @@ public class TestCase2 extends Utility{
 	
 	// TestCase check username validation 
 	
-		@Test(priority=1 , enabled = false) // false true
+		@Test(priority=1 , enabled = true) // false true
 		public void usernamevalidation() throws InterruptedException 
 		{			
 			SoftAssert soft = new SoftAssert();
@@ -76,7 +76,7 @@ public class TestCase2 extends Utility{
 	// TestCase check password  validation 
 	
 	
-	@Test(priority=2 , enabled = false) // false true
+	@Test(priority=2 , enabled = true) // false true
 	public void passvalidation() throws InterruptedException 
 	{			
 		SoftAssert soft = new SoftAssert();
@@ -101,7 +101,7 @@ public class TestCase2 extends Utility{
 	}
 	
 	
-	@Test(priority=3 , enabled = false) // false true
+	@Test(priority=3 , enabled = true) // false true
 	public void invalidUP() throws InterruptedException 
 	{			
 		SoftAssert soft = new SoftAssert();
@@ -205,16 +205,7 @@ public class TestCase2 extends Utility{
 
 	@AfterMethod
 	public void testResult(Method method, ITestResult result) throws IOException {
-		// String screenShotPath = new
-		// File("Framework\\Test_Reports\\Screenshots\\").getAbsolutePath() +
-		// "\\"
-		// + method.getName() + DateFormat.getDateTimeInstance().format(new
-		// Date()).toString().replaceAll(":", "_")
-		// + ".png";
-
-		// UIUtils.takeScreenshot(driver, screenShotPath);
-
-		// String attachImagePath = extentTest.addScreenCapture(screenShotPath);
+		
 
 		switch (result.getStatus()) {
 		case ITestResult.SUCCESS:

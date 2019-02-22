@@ -53,7 +53,7 @@ public class DashboardBrowseJournal extends Utility {
 		logger.info("Hello i am in dashboardbrowse");
 		taskFilter.click();
 		Thread.sleep(5000);
-		//clear_bt.click();
+		clear_bt.click();
 		
 		waitGridLoad(loadGrid, "style", "display: block;"); //display: none; display: block;
 		String resultOnclear = gridCountArticle.getText() ;
@@ -86,8 +86,7 @@ public boolean issueDashboard(ExtentTest extentTest) throws InterruptedException
 		String resultOnclear1 = gridCountIssue.getText() ;
 		resultOnclear1 = resultOnclear1.trim();
 		System.out.println("Print-->"+resultOnclear1);
-		logger.info("Count after clear is "+resultOnclear1);
-		//find.click();
+		logger.info("Count after clear is "+resultOnclear1); 
 		waitGridLoad(loadGrid, "style", "display: block;");
 		String resultfind1 = gridCountIssue.getText() ;
 		resultfind1 = resultfind1.trim();
