@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.mpstrak.common.TestCase2">
+        <methods>
+          <include name="loginTestCase"/>
+          <include name="startReporting"/>
+          <include name="systemStartUpConfiguration"/>
+          <include name="testResult"/>
+          <include name="generateResult"/>
+        </methods>
+      </class> <!-- com.mpstrak.common.TestCase2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

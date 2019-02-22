@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21782" started-at="2019-02-22T08:45:40Z" finished-at="2019-02-22T08:46:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21782" started-at="2019-02-22T08:45:40Z" finished-at="2019-02-22T08:46:02Z">
+      <class name="com.mpstrak.common.TestCase2">
+        <test-method status="PASS" signature="systemStartUpConfiguration()[pri:0, instance:com.mpstrak.common.TestCase2@1666ebb]" name="systemStartUpConfiguration" is-config="true" duration-ms="64" started-at="2019-02-22T08:45:40Z" finished-at="2019-02-22T08:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- systemStartUpConfiguration -->
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1666ebb]" name="startReporting" is-config="true" duration-ms="141" started-at="2019-02-22T08:45:40Z" finished-at="2019-02-22T08:45:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mpstrak.common.TestCase2.loginTestCase() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporting -->
+        <test-method status="PASS" signature="loginTestCase()[pri:4, instance:com.mpstrak.common.TestCase2@1666ebb]" name="loginTestCase" duration-ms="8110" started-at="2019-02-22T08:45:41Z" finished-at="2019-02-22T08:45:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1666ebb]" name="testResult" is-config="true" duration-ms="2854" started-at="2019-02-22T08:45:49Z" finished-at="2019-02-22T08:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mpstrak.common.TestCase2.loginTestCase() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=loginTestCase status=SUCCESS method=TestCase2.loginTestCase()[pri:4, instance:com.mpstrak.common.TestCase2@1666ebb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method status="PASS" signature="dashboardsearchAllJournalsRT()[pri:5, instance:com.mpstrak.common.TestCase2@1666ebb]" name="dashboardsearchAllJournalsRT" duration-ms="7639" started-at="2019-02-22T08:45:52Z" finished-at="2019-02-22T08:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardsearchAllJournalsRT -->
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1666ebb]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-02-22T08:45:52Z" finished-at="2019-02-22T08:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mpstrak.common.TestCase2.dashboardsearchAllJournalsRT() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporting -->
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1666ebb]" name="testResult" is-config="true" duration-ms="2672" started-at="2019-02-22T08:45:59Z" finished-at="2019-02-22T08:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mpstrak.common.TestCase2.dashboardsearchAllJournalsRT() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=dashboardsearchAllJournalsRT status=SUCCESS method=TestCase2.dashboardsearchAllJournalsRT()[pri:5, instance:com.mpstrak.common.TestCase2@1666ebb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method status="PASS" signature="generateResult()[pri:0, instance:com.mpstrak.common.TestCase2@1666ebb]" name="generateResult" is-config="true" duration-ms="345" started-at="2019-02-22T08:46:02Z" finished-at="2019-02-22T08:46:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateResult -->
+      </class> <!-- com.mpstrak.common.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
