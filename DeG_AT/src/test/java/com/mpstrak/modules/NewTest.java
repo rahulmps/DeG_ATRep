@@ -8,6 +8,7 @@ public class NewTest {
   @Test
   public void f() {
 	 System.out.println("rahul ");
+	 System.out.println("rahul 2 ");
   }
   @BeforeMethod
   public void beforeMethod() {
