@@ -53,7 +53,7 @@ public class TestCase2 extends Utility{
 	
 	// TestCase check username validation 
 	
-		@Test(priority=1 , enabled = true) // false true
+		@Test(priority=1 , enabled = false) // false true
 		public void usernamevalidation() throws InterruptedException 
 		{			
 			SoftAssert soft = new SoftAssert();
@@ -76,7 +76,7 @@ public class TestCase2 extends Utility{
 	// TestCase check password  validation 
 	
 	
-	@Test(priority=2 , enabled = true) // false true
+	@Test(priority=2 , enabled = false) // false true
 	public void passvalidation() throws InterruptedException 
 	{			
 		SoftAssert soft = new SoftAssert();
@@ -101,7 +101,7 @@ public class TestCase2 extends Utility{
 	}
 	
 	
-	@Test(priority=3 , enabled = true) // false true
+	@Test(priority=3 , enabled = false) // false true
 	public void invalidUP() throws InterruptedException 
 	{			
 		SoftAssert soft = new SoftAssert();
@@ -175,10 +175,43 @@ public class TestCase2 extends Utility{
 	
 	
 	
-//	@Test(priority= ,enabled=true)// false true
-//	@Test(priority= ,enabled=true)// false true
-//	@Test(priority= ,enabled=true)// false true
-//	@Test(priority= ,enabled=true)// false true
+	@Test(priority=6 ,enabled=true)// false true
+	public void dashBoardCurrentTaskArticleRT() throws Exception{
+		Boolean currentTask = dashboardBrowseJournal.verifyArticleCurrentTask(extentTest);
+		Assert.assertTrue(currentTask);
+		
+		
+		
+	}
+	
+	
+	
+	@Test(priority=7 ,enabled=true)// false true
+	public void dashBoardJournalRT() throws Exception{
+		boolean status =  dashboardBrowseJournal.verifyJournalSearch(extentTest);
+		
+		Assert.assertTrue(status);
+		
+	}
+	@Test(priority=8 ,enabled=true)// false true
+	public void dashBoardCurrentTaskIssueRT() throws Exception{
+		boolean status =  dashboardBrowseJournal.verifyIssueCurrentTask(extentTest);
+		
+		Assert.assertTrue(status);
+		
+	}
+	
+	@Test(priority=9 ,enabled=true)// false true
+	public void dashBoardSaveSearchRT() throws Exception{
+		boolean status =  dashboardBrowseJournal.verifySaveSearch(extentTest);
+		
+		Assert.assertTrue(status);
+		
+	}
+	
+	
+	
+	
 //	@Test(priority= ,enabled=true)// false true
 //	@Test(priority= ,enabled=true)// false true
 //	@Test(priority= ,enabled=true)// false true
@@ -210,22 +243,22 @@ public class TestCase2 extends Utility{
 		switch (result.getStatus()) {
 		case ITestResult.SUCCESS:
 			
-			extentTest.log(LogStatus.PASS, "Test Case " + method.getName() + " is pass");
+			extentTest.log(LogStatus.PASS, "Test Case --> " + method.getName() + " : is pass");
 			String meth = method.getName();
 			//extentTest.log(LogStatus.PASS, "Test Case Passed " + extentTest.addScreenCapture(ExtentManager.takeScreenshot(driver, method.getName(), Constants.DIRECTORYPATH)));
-			extentTest.log(LogStatus.PASS, "Test Case Passed " + extentTest.addScreenCapture(ExtentManager.takeScreenshot1(driver, method.getName(), Constants.DIRECTORYPATH)));
+			extentTest.log(LogStatus.PASS, "Test Case Passed " + extentTest.addScreenCapture(ExtentManager.takeScreenshotFullScreen(driver, method.getName(), Constants.DIRECTORYPATH)));
 //			extentTest.log(LogStatus.PASS, "Test Case Passed " + extentTest.addScreenCapture(takeScreenshot(driver, method.getName(), Constants.DIRECTORYPATH)));
 			//test.log(LogStatus.FAIL, failMsg + test.addScreenCapture(fn_TakeScreenShot(driver)));
 			// takeScreenshot(WebDriver driver, String fileName, String directoryPath)
 			break;
 		case ITestResult.FAILURE:
-			extentTest.log(LogStatus.FAIL, "Test Case " + method.getName() + " failed");
+			extentTest.log(LogStatus.FAIL, "Test Case -->" + method.getName() + " : failed");
 			String meth1 = method.getName();
 			//extentTest.log(LogStatus.FAIL, "Test Case Failed " + extentTest.addScreenCapture(ExtentManager.takeScreenshot(driver, method.getName(), Constants.DIRECTORYPATH)));
-			extentTest.log(LogStatus.PASS, "Test Case Passed " + extentTest.addScreenCapture(ExtentManager.takeScreenshot1(driver, method.getName(), Constants.DIRECTORYPATH)));
+			extentTest.log(LogStatus.PASS, "Test Case Passed " + extentTest.addScreenCapture(ExtentManager.takeScreenshotFullScreen(driver, method.getName(), Constants.DIRECTORYPATH)));
 			break;
 		case ITestResult.SKIP:
-			extentTest.log(LogStatus.SKIP, "Test Case " + method.getName() + "  skiped");
+			extentTest.log(LogStatus.SKIP, "Test Case --> " + method.getName() + " : skiped");
 			// break;
 		default:
 			break;
@@ -237,7 +270,7 @@ public class TestCase2 extends Utility{
 	public void generateResult() {
 		ExtentManager.getInstance().flush();
 		ExtentManager.getInstance().close();
-		driver.close();
+		//driver.close();
 		// TestDriver.getInstance().getDriver().quit();
 	}
 

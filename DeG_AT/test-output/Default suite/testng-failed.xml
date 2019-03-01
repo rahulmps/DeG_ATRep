@@ -5,7 +5,7 @@
     <classes>
       <class name="com.mpstrak.common.TestCase2">
         <methods>
-          <include name="dashboardsearchAllJournalsRT"/>
+          <include name="dashBoardCurrentTaskArticleRT"/>
           <include name="startReporting"/>
           <include name="systemStartUpConfiguration"/>
           <include name="testResult"/>

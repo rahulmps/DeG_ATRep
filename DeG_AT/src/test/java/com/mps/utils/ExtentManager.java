@@ -69,7 +69,7 @@ public class ExtentManager {
 	
 	// Full page screenshot 
 	
-	public static String takeScreenshot1(WebDriver driver, String fileName, String directoryPath) throws IOException {
+	public static String takeScreenshotFullScreen(WebDriver driver, String fileName, String directoryPath) throws IOException {
 		String fileName1 = fileName + ".png";
 		
 		
