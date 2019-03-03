@@ -5,11 +5,12 @@
     <classes>
       <class name="com.mpstrak.common.TestCase2">
         <methods>
-          <include name="loginTestCase"/>
           <include name="startReporting"/>
           <include name="systemStartUpConfiguration"/>
           <include name="testResult"/>
           <include name="generateResult"/>
+          <include name="dashBoardCurrentTaskIssueRT"/>
+          <include name="dashBoardJournalRT"/>
         </methods>
       </class> <!-- com.mpstrak.common.TestCase2 -->
     </classes>

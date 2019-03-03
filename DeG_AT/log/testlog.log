@@ -5734,3 +5734,26 @@ Session ID: 0d5c1cb9-9651-4878-bd9f-1dac89af9ee4
 2019-03-01 17:18:43,067 - com.mpstrak.modules.DashboardBrowseJournal -INFO - expected current task--> Revise Manuscript
 2019-03-01 17:18:55,555 - com.mpstrak.modules.DashboardBrowseJournal -INFO - expected Journal Acronym --> ANLY
 2019-03-01 17:19:07,740 - com.mpstrak.modules.DashboardBrowseJournal -INFO - expected current task--> Check and Approve XX.Revision
+2019-03-03 17:02:24,222 - com.mpstrak.common.TestCase2 -INFO - ----------------------System StartUp Configuration -----------------------------
+2019-03-03 17:02:24,226 - com.mpstrak.common.TestCase2 -INFO - ----------------------Setting up extent Report  -----------------------------
+2019-03-03 17:02:24,778 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-03-03 17:02:24,778 - com.mpstrak.common.TestCase2 -INFO - =====================loginTestCase===========
+2019-03-03 17:02:24,781 - com.mpstrak.common.TestCase2 -INFO - Entering Username
+2019-03-03 17:02:30,933 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-03-03 17:02:30,942 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-03-03 17:02:30,943 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-03-03 17:02:30,943 - com.mpstrak.common.TestCase2 -INFO - Entering Password 
+2019-03-03 17:02:30,994 - com.mpstrak.modules.DGLogin -INFO -  password entered  
+2019-03-03 17:02:30,999 - com.mpstrak.modules.DGLogin -INFO -  Username entered  
+2019-03-03 17:02:31,004 - com.mpstrak.common.TestCase2 -INFO - ===============Login  validation================ 
+2019-03-03 17:02:34,730 - com.mpstrak.common.TestCase2 -INFO - ===============Login  Success ================ 
+2019-03-03 17:02:34,735 - com.mpstrak.common.TestCase2 -INFO - ******************************************
+2019-03-03 17:02:37,856 - com.mpstrak.modules.DashboardBrowseJournal -INFO - We are on dashboardbrowse Page 
+2019-03-03 17:02:48,706 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 1 446
+2019-03-03 17:02:48,775 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 1 446
+2019-03-03 17:02:48,775 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Article are equal --> true
+2019-03-03 17:02:48,851 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 2 028
+2019-03-03 17:02:48,926 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Count after clear is View 1 - 10 of 2 028
+2019-03-03 17:02:48,926 - com.mpstrak.modules.DashboardBrowseJournal -INFO - Issue are equal --> true
+2019-03-03 17:02:51,941 - com.mpstrak.modules.DashboardBrowseJournal -INFO - expected current task--> Approval
+2019-03-03 17:03:02,168 - com.mpstrak.modules.DashboardBrowseJournal -INFO - expected Journal Acronym --> ANONA

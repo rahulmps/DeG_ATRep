@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+<testng-results skipped="0" failed="2" ignored="3" total="9" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72191" started-at="2019-03-01T11:48:12Z" finished-at="2019-03-01T11:49:24Z">
+  <suite name="Suite" duration-ms="92767" started-at="2019-03-03T11:32:24Z" finished-at="2019-03-03T11:33:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="72191" started-at="2019-03-01T11:48:12Z" finished-at="2019-03-01T11:49:24Z">
+    <test name="Test" duration-ms="92767" started-at="2019-03-03T11:32:24Z" finished-at="2019-03-03T11:33:56Z">
       <class name="com.mpstrak.common.TestCase2">
-        <test-method status="PASS" signature="systemStartUpConfiguration()[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="systemStartUpConfiguration" is-config="true" duration-ms="120" started-at="2019-03-01T11:48:12Z" finished-at="2019-03-01T11:48:12Z">
+        <test-method status="PASS" signature="systemStartUpConfiguration()[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="systemStartUpConfiguration" is-config="true" duration-ms="160" started-at="2019-03-03T11:32:24Z" finished-at="2019-03-03T11:32:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- systemStartUpConfiguration -->
-        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="startReporting" is-config="true" duration-ms="166" started-at="2019-03-01T11:48:12Z" finished-at="2019-03-01T11:48:12Z">
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="startReporting" is-config="true" duration-ms="520" started-at="2019-03-03T11:32:24Z" finished-at="2019-03-03T11:32:24Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReporting -->
-        <test-method status="PASS" signature="loginTestCase()[pri:4, instance:com.mpstrak.common.TestCase2@e659aa]" name="loginTestCase" duration-ms="10223" started-at="2019-03-01T11:48:12Z" finished-at="2019-03-01T11:48:22Z">
+        <test-method status="PASS" signature="loginTestCase()[pri:4, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="loginTestCase" duration-ms="9973" started-at="2019-03-03T11:32:24Z" finished-at="2019-03-03T11:32:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCase -->
-        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="testResult" is-config="true" duration-ms="2916" started-at="2019-03-01T11:48:22Z" finished-at="2019-03-01T11:48:25Z">
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="testResult" is-config="true" duration-ms="3114" started-at="2019-03-03T11:32:34Z" finished-at="2019-03-03T11:32:37Z">
           <params>
             <param index="0">
               <value>
@@ -35,14 +35,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=loginTestCase status=SUCCESS method=TestCase2.loginTestCase()[pri:4, instance:com.mpstrak.common.TestCase2@e659aa] output={null}]]]>
+                <![CDATA[[TestResult name=loginTestCase status=SUCCESS method=TestCase2.loginTestCase()[pri:4, instance:com.mpstrak.common.TestCase2@1a3e26a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="startReporting" is-config="true" duration-ms="1" started-at="2019-03-01T11:48:25Z" finished-at="2019-03-01T11:48:25Z">
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-03-03T11:32:37Z" finished-at="2019-03-03T11:32:37Z">
           <params>
             <param index="0">
               <value>
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReporting -->
-        <test-method status="PASS" signature="dashboardsearchAllJournalsRT()[pri:5, instance:com.mpstrak.common.TestCase2@e659aa]" name="dashboardsearchAllJournalsRT" duration-ms="14196" started-at="2019-03-01T11:48:25Z" finished-at="2019-03-01T11:48:40Z">
+        <test-method status="PASS" signature="dashboardsearchAllJournalsRT()[pri:5, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="dashboardsearchAllJournalsRT" duration-ms="11072" started-at="2019-03-03T11:32:37Z" finished-at="2019-03-03T11:32:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashboardsearchAllJournalsRT -->
-        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="testResult" is-config="true" duration-ms="2700" started-at="2019-03-01T11:48:40Z" finished-at="2019-03-01T11:48:42Z">
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="testResult" is-config="true" duration-ms="2750" started-at="2019-03-03T11:32:48Z" finished-at="2019-03-03T11:32:51Z">
           <params>
             <param index="0">
               <value>
@@ -66,14 +66,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=dashboardsearchAllJournalsRT status=SUCCESS method=TestCase2.dashboardsearchAllJournalsRT()[pri:5, instance:com.mpstrak.common.TestCase2@e659aa] output={null}]]]>
+                <![CDATA[[TestResult name=dashboardsearchAllJournalsRT status=SUCCESS method=TestCase2.dashboardsearchAllJournalsRT()[pri:5, instance:com.mpstrak.common.TestCase2@1a3e26a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="startReporting" is-config="true" duration-ms="1" started-at="2019-03-01T11:48:42Z" finished-at="2019-03-01T11:48:42Z">
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="startReporting" is-config="true" duration-ms="1" started-at="2019-03-03T11:32:51Z" finished-at="2019-03-03T11:32:51Z">
           <params>
             <param index="0">
               <value>
@@ -84,11 +84,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReporting -->
-        <test-method status="PASS" signature="dashBoardCurrentTaskArticleRT()[pri:6, instance:com.mpstrak.common.TestCase2@e659aa]" name="dashBoardCurrentTaskArticleRT" duration-ms="6926" started-at="2019-03-01T11:48:42Z" finished-at="2019-03-01T11:48:49Z">
+        <test-method status="PASS" signature="dashBoardCurrentTaskArticleRT()[pri:6, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="dashBoardCurrentTaskArticleRT" duration-ms="5996" started-at="2019-03-03T11:32:51Z" finished-at="2019-03-03T11:32:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashBoardCurrentTaskArticleRT -->
-        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="testResult" is-config="true" duration-ms="2685" started-at="2019-03-01T11:48:49Z" finished-at="2019-03-01T11:48:52Z">
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="testResult" is-config="true" duration-ms="2676" started-at="2019-03-03T11:32:57Z" finished-at="2019-03-03T11:33:00Z">
           <params>
             <param index="0">
               <value>
@@ -97,18 +97,57 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=dashBoardCurrentTaskArticleRT status=SUCCESS method=TestCase2.dashBoardCurrentTaskArticleRT()[pri:6, instance:com.mpstrak.common.TestCase2@e659aa] output={null}]]]>
+                <![CDATA[[TestResult name=dashBoardCurrentTaskArticleRT status=SUCCESS method=TestCase2.dashBoardCurrentTaskArticleRT()[pri:6, instance:com.mpstrak.common.TestCase2@1a3e26a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="dashBoardJournalRT()[pri:7, instance:com.mpstrak.common.TestCase2@e659aa]" name="dashBoardJournalRT" duration-ms="11166" started-at="2019-03-01T11:48:52Z" finished-at="2019-03-01T11:49:03Z">
+        <test-method status="FAIL" signature="dashBoardJournalRT()[pri:7, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="dashBoardJournalRT" duration-ms="38563" started-at="2019-03-03T11:33:00Z" finished-at="2019-03-03T11:33:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.mpstrak.common.TestCase2.dashBoardJournalRT(TestCase2.java:193)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashBoardJournalRT -->
-        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-03-01T11:48:52Z" finished-at="2019-03-01T11:48:52Z">
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-03-03T11:33:00Z" finished-at="2019-03-03T11:33:00Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReporting -->
-        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="testResult" is-config="true" duration-ms="2604" started-at="2019-03-01T11:49:03Z" finished-at="2019-03-01T11:49:06Z">
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="testResult" is-config="true" duration-ms="2717" started-at="2019-03-03T11:33:38Z" finished-at="2019-03-03T11:33:41Z">
           <params>
             <param index="0">
               <value>
@@ -128,29 +167,68 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=dashBoardJournalRT status=SUCCESS method=TestCase2.dashBoardJournalRT()[pri:7, instance:com.mpstrak.common.TestCase2@e659aa] output={null}]]]>
+                <![CDATA[[TestResult name=dashBoardJournalRT status=FAILURE method=TestCase2.dashBoardJournalRT()[pri:7, instance:com.mpstrak.common.TestCase2@1a3e26a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="dashBoardCurrentTaskIssueRT()[pri:8, instance:com.mpstrak.common.TestCase2@e659aa]" name="dashBoardCurrentTaskIssueRT" duration-ms="12041" started-at="2019-03-01T11:49:06Z" finished-at="2019-03-01T11:49:18Z">
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-03-03T11:33:41Z" finished-at="2019-03-03T11:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mpstrak.common.TestCase2.dashBoardCurrentTaskIssueRT() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporting -->
+        <test-method status="FAIL" signature="dashBoardCurrentTaskIssueRT()[pri:8, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="dashBoardCurrentTaskIssueRT" duration-ms="8373" started-at="2019-03-03T11:33:41Z" finished-at="2019-03-03T11:33:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.mpstrak.common.TestCase2.dashBoardCurrentTaskIssueRT(TestCase2.java:200)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashBoardCurrentTaskIssueRT -->
-        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-03-01T11:49:06Z" finished-at="2019-03-01T11:49:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.mpstrak.common.TestCase2.dashBoardCurrentTaskIssueRT() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReporting -->
-        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="testResult" is-config="true" duration-ms="2604" started-at="2019-03-01T11:49:18Z" finished-at="2019-03-01T11:49:20Z">
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="testResult" is-config="true" duration-ms="2741" started-at="2019-03-03T11:33:50Z" finished-at="2019-03-03T11:33:52Z">
           <params>
             <param index="0">
               <value>
@@ -159,18 +237,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=dashBoardCurrentTaskIssueRT status=SUCCESS method=TestCase2.dashBoardCurrentTaskIssueRT()[pri:8, instance:com.mpstrak.common.TestCase2@e659aa] output={null}]]]>
+                <![CDATA[[TestResult name=dashBoardCurrentTaskIssueRT status=FAILURE method=TestCase2.dashBoardCurrentTaskIssueRT()[pri:8, instance:com.mpstrak.common.TestCase2@1a3e26a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="dashBoardSaveSearchRT()[pri:9, instance:com.mpstrak.common.TestCase2@e659aa]" name="dashBoardSaveSearchRT" duration-ms="1027" started-at="2019-03-01T11:49:20Z" finished-at="2019-03-01T11:49:21Z">
+        <test-method status="PASS" signature="dashBoardSaveSearchRT()[pri:9, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="dashBoardSaveSearchRT" duration-ms="1275" started-at="2019-03-03T11:33:52Z" finished-at="2019-03-03T11:33:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashBoardSaveSearchRT -->
-        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-03-01T11:49:20Z" finished-at="2019-03-01T11:49:20Z">
+        <test-method status="PASS" signature="startReporting(java.lang.reflect.Method)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="startReporting" is-config="true" duration-ms="0" started-at="2019-03-03T11:33:52Z" finished-at="2019-03-03T11:33:52Z">
           <params>
             <param index="0">
               <value>
@@ -181,7 +259,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReporting -->
-        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="testResult" is-config="true" duration-ms="2602" started-at="2019-03-01T11:49:21Z" finished-at="2019-03-01T11:49:24Z">
+        <test-method status="PASS" signature="testResult(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="testResult" is-config="true" duration-ms="2645" started-at="2019-03-03T11:33:54Z" finished-at="2019-03-03T11:33:56Z">
           <params>
             <param index="0">
               <value>
@@ -190,18 +268,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=dashBoardSaveSearchRT status=SUCCESS method=TestCase2.dashBoardSaveSearchRT()[pri:9, instance:com.mpstrak.common.TestCase2@e659aa] output={null}]]]>
+                <![CDATA[[TestResult name=dashBoardSaveSearchRT status=SUCCESS method=TestCase2.dashBoardSaveSearchRT()[pri:9, instance:com.mpstrak.common.TestCase2@1a3e26a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testResult -->
-        <test-method status="PASS" signature="generateResult()[pri:0, instance:com.mpstrak.common.TestCase2@e659aa]" name="generateResult" is-config="true" duration-ms="300" started-at="2019-03-01T11:49:24Z" finished-at="2019-03-01T11:49:24Z">
+        <test-method status="PASS" signature="generateResult()[pri:0, instance:com.mpstrak.common.TestCase2@1a3e26a]" name="generateResult" is-config="true" duration-ms="320" started-at="2019-03-03T11:33:56Z" finished-at="2019-03-03T11:33:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateResult -->
       </class> <!-- com.mpstrak.common.TestCase2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
